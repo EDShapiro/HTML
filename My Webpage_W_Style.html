@@ -1,13 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
+<style>
+    body.dotted {border-style: dotted;}
+    body.dashed {border-style: dashed;}
+    body.solid {border-style: solid;}
+
+    div {
+    background-color: black;
+    color: white;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+    }
+
+
+
+    body {
+    background-color: mediumpurple;
+
+    }
+    ul,ol,h1,h3,li,p {
+    font-family:Verdana;
+        color:white;
+    }
+    p.padding {
+    padding-right: 2cm;
+    }
+
+    p.padding2 {
+    padding-right: 50%;
+    }
+    p.margin {
+    margin-left: 40%;
+    }
+    #grad1 {
+    height: 200px;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(purple, midnightblue); /* Standard syntax (must be last) */
+    }
+</style>
     <meta charset="UTF-8">
 </head>
     <title>Evan Shapiro - Master of the Universe</title>
-<body style="background-color: midnightblue;" class="solid" >
+<body  style="background-color: midnightblue;" class="solid" >
 
-<center><h1 class="dotted"> A Few Things That I am Interested In</h1>
+<center><h1 id="grad1" class="dotted"> A Few Things That I am Interested In</h1>
 <h3 style ="font-family:verdana">I enjoy traveling.</h3>
 <!--Here I used the <ul> tag and the <li> tag to create a bulleted list-->
 <ul style ="font-family:verdana"><li>Traveling allows me to meet interesting people from all over the world.</li>

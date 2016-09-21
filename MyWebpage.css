@@ -1,0 +1,32 @@
+
+body.dotted {border-style: dotted;}
+body.dashed {border-style: dashed;}
+body.solid {border-style: solid;}
+
+div {
+    background-color: black;
+    color: white;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+}
+
+
+
+ body {
+     background-color: mediumpurple;
+
+ }
+ul,ol {
+    font-family:Verdana;
+    font-size:%150;
+}
+p.padding {
+    padding-right: 2cm;
+}
+
+p.padding2 {
+    padding-right: 50%;
+}
+p.margin {
+    margin-left: 40%;
+}
